@@ -7,7 +7,8 @@ const IMAGES = {
     space3: require('./spacephotos/interiorminds_double_exposure_of_an_astronaut_cdd6ca2a-c1e7-471c-88a9-f61d0fea1504.jpeg'),
     infoboxbg1: require('./InfoboxBackground/_DSC0051.jpg'),
     infoboxbg2: require('./InfoboxBackground/_DSC0052.jpg'),
-    infoboxbg3: require('./InfoboxBackground/_DSC0060.jpg')
+    infoboxbg3: require('./InfoboxBackground/_DSC0060.jpg'),
+    photoOfMe: require('./me.jpeg')
 }
 
 export default IMAGES

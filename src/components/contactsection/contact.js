@@ -1,5 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import './contact.css'  //hero section//
 
+
+    
 
 function Contact (props){
     return(
@@ -12,11 +15,11 @@ function Contact (props){
             </div>
 
             <div className="contactright">
-            <button type="button" class="btn btn-success">Contact</button>
+            <button type="button" class="btn btn-success transpbutton">Contact</button>
 
             </div>
 
-
+            
         </div>
 
 

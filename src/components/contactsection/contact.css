@@ -1,0 +1,33 @@
+.contactContainer{
+    background: rgb(2,0,36);
+    padding: 2em;
+    display: flex;
+      justify-content: center;
+      align-items: baseline;
+      background: linear-gradient(to right, #FF5733, #7E2E9F);
+      background-size: 200% auto;
+      animation: gradient 10s ease infinite;
+      z-index: 0;
+    
+  }
+  
+  .contactright{
+    float: right;
+    padding-top:25%;
+    padding-left: 5%;
+  }
+  
+  .contactleft{
+    float: left;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  
+  .contactleft p{
+    padding-top: 5em;
+  }
+  
+  /*Global CSS*/
+  .transpbutton{
+    background-color: rgba(0, 0, 0, 0.00);
+  }

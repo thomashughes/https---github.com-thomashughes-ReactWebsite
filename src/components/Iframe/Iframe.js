@@ -1,3 +1,5 @@
+import './Iframe.css'
+
 function Iframe (props){
     return(
         <div className="Iframeclass">

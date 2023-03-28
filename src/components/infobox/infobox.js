@@ -1,7 +1,6 @@
-import IMAGES from "../../images"
 import 'bootstrap/dist/css/bootstrap.css';
-
-
+import './infobox.css'
+import IMAGES from '../../images';
   
   
   function Infobox  (props) {

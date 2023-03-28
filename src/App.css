@@ -1,134 +1,23 @@
+
+*{
+  font-family: "Jost";
+}
 body{
+  border-radius: 0px 0px 10px 10px;
+  margin-top:50px;
   display: inline;
-}
-.navbar {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  color: black;
-  padding:10px;
-  position: sticky;
-  top:0px;
   z-index: 1;
-}
-
-.logo {
-  margin-right: auto;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links li {
-  margin-left: 20px;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  font-weight: normal;
-  transition: font-weight 0.2s ease-in-out;
-  color:black
-}
-
-.nav-links li a:hover {
-  font-weight: bold;
-}
-
-.iframeclass{
-  width: 100%;
-}
-
-
-#infoboxcont{
-  padding-left: 8%;
-  padding-right: 8%;
-  background-color: red;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: rgb(2,0,36);
-background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(254,218,169,1) 0%, rgba(255,130,130,1) 100%);
+  position: relative;
 
 }
-
-#infoboxh2{
-  padding:20px;
-  font-size: 72px;
-}
-
-#infoboxcont h2{
-  align:center;
-  color:#2B3359;
-  padding:10px;
-  font-size: 50px;
-  
-}
-.infoboxwrapper{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-
-.infobox{
-  height:auto;
-  max-width: 23em;
-  min-width: 15em;
-  background:skyblue;
-  margin:10px;
-  text-align: center;
-  contain:layout;
-  overflow:hidden;
-  border-radius:10px;
-  padding:15px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding-bottom: 2em;
-  flex-grow: 88%;
-}
-
-.infobox h2{
-  padding:10px
-}
-
-.infobox img{
-  height:30%;
-  width:95%; 
-
-}
-
-#infobox1{
-  background-image:
-   linear-gradient(to bottom,           rgba(245, 246, 252, 0.52),         rgba(117, 19, 93, 0.73)),
-   url(./images/InfoboxBackground/_DSC0051.jpg);
-  
-
-}
-
-#infobox2{
-  background-image:
-   linear-gradient(to bottom,           rgba(245, 246, 252, 0.52),         rgba(117, 19, 93, 0.73)),
-   url(./images/InfoboxBackground/_DSC0052.jpg);
-  
-}
-
-#infobox3{
-  background-image:
-   linear-gradient(to bottom,           rgba(245, 246, 252, 0.52),         rgba(117, 19, 93, 0.73)),
-   url(./images/InfoboxBackground/_DSC0060.jpg);
-  ;
-  
-}
-
 
 
 p {
-  color:white;
+  color: #534d41;
+  font-size: 15px;
+  font-weight: 400; 
+  line-height: 1.7; 
+  letter-spacing: 0;
 }
 
 h1{
@@ -141,43 +30,5 @@ ul{
   font-size:20px;
 }
 
-button{
-  background-color:green;
-  color:white;
-  border-radius:10px;
-  height:3em;
-  width:10em;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-button:hover{
-  background-color:red;
-}
 
-.contactContainer{
-  background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(254,218,169,1) 0%, rgba(255,130,130,1) 100%);
-  padding: 2em;
-  display: flex;
-    justify-content: center;
-    align-items: baseline
-}
-
-.contactright{
-  float: right;
-  padding-top:25%;
-  padding-left: 5%;
-}
-
-.contactleft{
-  float: left;
-  padding-top: 20%;
-  padding-bottom: 20%;
-}
-
-.contactleft p{
-  padding-top: 5em;
-}
 

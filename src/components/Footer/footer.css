@@ -1,0 +1,36 @@
+.mainFooter{
+    background-color: rgb(69, 69, 69);
+    height:15em;
+    width: 100%;
+    padding:3em
+}
+
+.row{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ftrbtn{
+    font-family: jost;
+    width: auto;
+    color: #fff;
+    display: inline-block;
+    background: #000;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 14px 20px;
+    text-align: center;
+    z-index: 99;
+}
+
+.date{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

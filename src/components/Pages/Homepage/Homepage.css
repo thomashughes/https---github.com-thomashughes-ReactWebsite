@@ -1,0 +1,29 @@
+.helloSectionWrapper p h3 h5{
+  margin-bottom: 22px;
+  display: inline-block;
+}
+
+.leftSideHS, .rightSideHS{
+  width: 50%;
+  margin:50px;
+  display: block;
+}
+  
+  h1{
+    color:white;
+  }
+  
+  ul{
+    line-height:2em;
+    color:white;
+    font-size:20px;
+  }
+
+
+.rightSideHS img{
+  width: 20%;
+}
+
+  
+  
+  
