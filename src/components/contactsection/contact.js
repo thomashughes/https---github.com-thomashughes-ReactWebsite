@@ -15,7 +15,7 @@ function Contact (props){
             </div>
 
             <div className="contactright">
-            <button type="button" class="btn btn-success transpbutton">Contact</button>
+            <button class="btn btn-lg btn-success" type="button">Contact</button>
 
             </div>
 
