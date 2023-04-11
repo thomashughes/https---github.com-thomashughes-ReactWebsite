@@ -1,0 +1,52 @@
+.herocont{
+
+  height: 100vh;
+  width: 100%;
+}
+
+
+.helloSectionWrapper p{
+  
+  display: inline-block;
+}
+
+.helloSectionWrapper{
+  margin:20px
+}
+
+.infoboxwrapper {
+  display: flex;
+}
+
+.infoboxwrapper > * {
+  flex-basis: 33.33%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#photoOfMe {
+  
+    width:80%;
+    height:80%;
+    border-radius: 10px 10px 10px 10px;
+    margin:50px 0px 50px 0px;
+    display: inline;
+    z-index: 1;
+    position: relative;
+    box-shadow: 13px 8px 20px 0px rgb(0 0 0 / 50%);;
+  
+}
+ .social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  z-index: 1;
+} 
+
+  
+  
+  

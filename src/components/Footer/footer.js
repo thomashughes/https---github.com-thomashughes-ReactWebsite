@@ -1,5 +1,5 @@
-import './footer.css' 
 import React from 'react'
+import './footer.css' 
 import { FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='mainFooter'>
             <div className='footerContainer'>
                 <div className='row'>
-                    <button className='ftrbtn'> <FaInstagram/> _Tag.art</button>
+                    <div className='ftrbtn'> <FaInstagram/><a href='https://www.instagram.com'> _Tag.art</a></div>
                    <div className='date'> &copy;{new Date().getFullYear()}</div>
                 </div>
             </div>

@@ -1,38 +1,50 @@
 #infoboxcont{
     padding-left: 8%;
     padding-right: 8%;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     align-items: center;
-    background: rgb(2,0,36);
-  background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(254,218,169,1) 0%, rgba(255,130,130,1) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,121,140,1) 46%);
+    
+    padding: 2em;
   }
 
-#infoboxh2{
-    padding:20px;
-    font-size: 72px;
+  .infoboxwrapper {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .infoboxwrapper > * {
+    flex-basis: 33.33%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+.infobox p{
+    color:whitesmoke;
 }
+
   
 #infoboxcont h2{
-    align:center;
+    text-align: center;
     color:#2B3359;
     padding:10px;
     font-size: 50px;
-    
 }
 
 .infoboxwrapper{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: stretch;
 }
   
   
 .infobox{
     height:auto;
-    max-width: 23em;
-    min-width: 15em;
+    /* max-width: 23em;
+    min-width: 15em; */
     background:skyblue;
     margin:10px;
     text-align: center;
@@ -44,7 +56,7 @@
     background-size: cover;
     background-position: center center;
     padding-bottom: 2em;
-    flex-grow: 88%;
+    /* flex-grow: 88%; */
 }
   
 .infobox h2{
@@ -56,20 +68,31 @@
     width:95%; 
 }
 
+
+
 #infobox1{
     background-image:
-     linear-gradient(to bottom,           rgba(245, 246, 252, 0.52),         rgba(117, 19, 93, 0.73)),
+    linear-gradient(0deg, rgba(34,193,195,0.5) 0%,rgba(253,187,45,0.3) 100%),
      url(../../images/InfoboxBackground/_DSC0051.jpg);
 }
 
 #infobox2{
     background-image:
-     linear-gradient(to bottom,           rgba(245, 246, 252, 0.52),         rgba(117, 19, 93, 0.73)),
+    linear-gradient(0deg, rgba(34,193,195,0.5) 0%,rgba(253,187,45,0.3) 100%),
      url(../../images/InfoboxBackground/_DSC0052.jpg);
   }
 
 #infobox3{
     background-image:
-    linear-gradient(to bottom,           rgba(245, 246, 252, 0.52),         rgba(117, 19, 93, 0.73)),
+    linear-gradient(0deg, rgba(34,193,195,0.5) 0%,rgba(253,187,45,0.3) 100%),
     url(../../images/InfoboxBackground/_DSC0060.jpg);
 }
+
+.infoboxwrapper img{
+    width:80%;
+    height:80%;
+    display: inline;
+    z-index: 1;
+    position: relative;
+  }
+  

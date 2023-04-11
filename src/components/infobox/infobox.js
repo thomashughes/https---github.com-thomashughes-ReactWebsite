@@ -1,12 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './infobox.css'
-import IMAGES from '../../images';
   
   
   function Infobox  (props) {
     return(
     <div className='infoboxcont'>
-    <div className="infobox" id={props.id}>
+    <div className="infobox col-lg-12 col-md-12 col-sm-12" id={props.id}>
         <img src={props.imgsrc} alt="A space themed AI generated watercolour "/>
        <h2>{props.title}</h2>
         <p>{props.text}</p>

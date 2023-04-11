@@ -1,0 +1,30 @@
+.container {
+    margin-top: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .image-container {
+    height: 78vh;
+    background-image: url('../../images/grid_0-topaz-enhance.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding:10%;
+    margin:10em;
+  }
+  
+  .contactpagebtn {
+    background-color: black;
+    color: white;
+  }
+  
