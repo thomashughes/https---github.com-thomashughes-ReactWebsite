@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border-radius: 0px 0px 10px 10px;
+  margin-top:50px;
+  display: inline;
+  z-index: 1;
+  position: relative;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+*{
+  font-family: "Jost";
+}
+
+
+
+p {
+  color: #534d41;
+  font-size: 20px;
+  font-weight: 400; 
+  line-height: 1.7; 
+  letter-spacing: 0;
+}
+
+h1{
+  color:white;
+}
+
+h3{
+  color:#534d41;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+h5{
+  text-transform: uppercase;
+}
+
+ul{
+  line-height:2em;
+  color:white;
+  font-size:20px;
+}
+
+
+a{
+  color:red
 }

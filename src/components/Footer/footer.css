@@ -25,7 +25,15 @@
     padding: 14px 20px;
     text-align: center;
     z-index: 99;
+    cursor: pointer;
 }
+
+.ftrbtn:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
 
 .date{
     display: flex;

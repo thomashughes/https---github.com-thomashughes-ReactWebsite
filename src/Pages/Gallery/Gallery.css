@@ -1,0 +1,40 @@
+.galleryContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    background-color: 0000000;
+    overflow: hidden;
+    justify-content: center;
+    
+
+
+}
+
+.gallerySection{
+    padding:0 50%;
+}
+
+.item{
+    max-height: 90rem;
+    width:30rem;
+    padding: 40px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.innerCaurousel{
+    display: flex;
+}
+
+.caurousel{
+    cursor:grab;
+    overflow: hidden;
+
+}

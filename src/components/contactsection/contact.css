@@ -1,17 +1,30 @@
 .contactContainer{
-    background: rgb(2,0,36);
-    padding: 2em;
     display: flex;
       justify-content: center;
       align-items: baseline;
-      background: linear-gradient(to right, #FF5733, #7E2E9F);
+      background: rgb(183,146,146);
+      background: linear-gradient(180deg, rgba(183,146,146,1) 0%, rgba(222,65,95,1) 78%);    
       background-size: 200% auto;
-      animation: gradient 10s ease infinite;
       z-index: 0;
     
   }
   
-  .contactright{
+   .contactContainer{
+    padding:5%;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+  }
+  .contactleft p{
+    padding-top: 5%;
+  }
+  
+  
+
+  
+  /* .contactright{
     float: right;
     padding-top:25%;
     padding-left: 5%;
@@ -23,11 +36,9 @@
     padding-bottom: 20%;
   }
   
-  .contactleft p{
-    padding-top: 5em;
-  }
+ 
   
   /*Global CSS*/
-  .transpbutton{
+  /* .transpbutton{
     background-color: rgba(0, 0, 0, 0.00);
-  }
+  } */ 
